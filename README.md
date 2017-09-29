@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/l/semantic-ui-redux-form-fields.svg)](https://github.com/artisin/semantic-ui-redux-form-fields/blob/master/LICENSE.txt)
 [![npm](https://img.shields.io/npm/v/semantic-ui-redux-form-fields.svg)](https://www.npmjs.com/package/semantic-ui-redux-form-fields)
-[![wercker status](https://app.wercker.com/status/a5cd2c460ebd46869b203308802dc50e/s/master "wercker status")](https://app.wercker.com/project/byKey/a5cd2c460ebd46869b203308802dc50e)
+[![wercker status](https://app.wercker.com/status/318ec4f5595dcc395d305e27825e20bd/s/master "wercker status")](https://app.wercker.com/project/byKey/318ec4f5595dcc395d305e27825e20bd)
 [![David](https://img.shields.io/david/artisin/semantic-ui-redux-form-fields.svg)](https://github.com/artisin/semantic-ui-redux-form-fields/blob/master/package.json)
 
 This React component library is designed to help you easily integrate [Semantic UI React](https://react.semantic-ui.com/introduction) with [Redux Form](http://redux-form.com). The components come all pre-hooked-up so you don't have to worry about error reporting or the presentation logic since everything works right out of the box. Included is the big five form components `Checkbox` `Dropdown`, `Input`, `Radio`, and `TextArea` as well as `fieldEnhance` a higher order component that gives you the flexibility to extend and customize.
