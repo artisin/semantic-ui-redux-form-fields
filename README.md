@@ -40,7 +40,7 @@ In the `dist/` directory contains a pre-build Node, Browser, and Browser minifie
 
 + All the default Semantic UI props for each component can be passed just like you would expect.
 + `currentValue` → Is the `value` for all components. It's critically important that you use `currentValue` and not `value` otherwise the component will not work.
-+ `topLabel` → An <label>{topLabel ? topLabel : null}</label>
++ `topLabel` → A Semantic UI `label` that's positioned above the field (top-right).
 + Events → In all likelihood you'll need to implement custom events, and while you can use a non-append prop like `onChange` you won't have access to the redux-form `input` methods. However, by using these `{*}Custom` appended props `input` is passed as the first argument.
     * `onBlurCustom(input, event, newValue, previousValue)`
     * `onChangeCustom(input, event, newValue, previousValue)`
