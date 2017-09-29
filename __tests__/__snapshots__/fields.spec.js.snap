@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Test  -> <Checkbox /> renders should equal snapshot -> currentValue={false} 1`] = `
+<form>
+  <div
+    class="field CheckBox  Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My Checkbox
+    </label>
+    <div
+      class="ui fitted checkbox"
+      placeholder="My Checkbox"
+    >
+      <input
+        class="hidden"
+        name="my-Checkbox"
+        readonly=""
+        tabindex="0"
+        type="checkbox"
+      />
+      <label />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Component Test  -> <Checkbox /> renders should equal snapshot -> currentValue={true} 1`] = `
+<form>
+  <div
+    class="field CheckBox  Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My Checkbox
+    </label>
+    <div
+      class="ui checked fitted checkbox"
+      placeholder="My Checkbox"
+    >
+      <input
+        checked=""
+        class="hidden"
+        name="my-Checkbox"
+        readonly=""
+        tabindex="0"
+        type="checkbox"
+      />
+      <label />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Component Test  -> <Dropdown /> renders should equal snapshot -> currentValue 1`] = `
+<form>
+  <div
+    class="field Dropdown  Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My Dropdown
+    </label>
+    <div
+      aria-expanded="false"
+      class="ui fluid search selection dropdown"
+      name="my-Dropdown"
+      role="combobox"
+    >
+      <input
+        aria-autocomplete="list"
+        autocomplete="off"
+        class="search"
+        tabindex="0"
+        type="text"
+        value=""
+      />
+      <div
+        aria-live="polite"
+        class="text"
+        role="alert"
+      >
+        test2
+      </div>
+      <i
+        aria-hidden="true"
+        class="dropdown icon"
+      />
+      <div
+        aria-multiselectable="false"
+        class="menu transition"
+        role="listbox"
+      >
+        <div
+          aria-checked="false"
+          aria-selected="false"
+          class="item"
+          role="option"
+          style="pointer-events:all"
+        >
+          <span
+            class="text"
+          >
+            test
+          </span>
+        </div>
+        <div
+          aria-checked="true"
+          aria-selected="true"
+          class="active selected item"
+          role="option"
+          style="pointer-events:all"
+        >
+          <span
+            class="text"
+          >
+            test2
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Component Test  -> <Dropdown /> renders should equal snapshot 1`] = `
+<form>
+  <div
+    class="field Dropdown  Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My Dropdown
+    </label>
+    <div
+      aria-expanded="false"
+      class="ui fluid search selection dropdown"
+      name="my-Dropdown"
+      role="combobox"
+    >
+      <input
+        aria-autocomplete="list"
+        autocomplete="off"
+        class="search"
+        tabindex="0"
+        type="text"
+        value=""
+      />
+      <div
+        aria-live="polite"
+        class="default text"
+        role="alert"
+      >
+        My Checbox
+      </div>
+      <i
+        aria-hidden="true"
+        class="dropdown icon"
+      />
+      <div
+        aria-multiselectable="false"
+        class="menu transition"
+        role="listbox"
+      >
+        <div
+          aria-checked="false"
+          aria-selected="true"
+          class="selected item"
+          role="option"
+          style="pointer-events:all"
+        >
+          <span
+            class="text"
+          >
+            test
+          </span>
+        </div>
+        <div
+          aria-checked="false"
+          aria-selected="false"
+          class="item"
+          role="option"
+          style="pointer-events:all"
+        >
+          <span
+            class="text"
+          >
+            test2
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Component Test  -> <Input /> renders should equal snapshot 1`] = `
+<form>
+  <div
+    class="field Input  Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My Input
+    </label>
+    <div
+      class="ui input"
+    >
+      <input
+        name="my-input"
+        placeholder="Company Name"
+        type="text"
+      />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Component Test  -> <Radio /> renders should equal snapshot -> currentValue={false} 1`] = `
+<form>
+  <div
+    class="field Radio  Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My Radio
+    </label>
+    <div
+      class="ui fitted radio checkbox"
+      placeholder="My Radio"
+    >
+      <input
+        class="hidden"
+        name="my-Radio"
+        readonly=""
+        tabindex="0"
+        type="radio"
+      />
+      <label />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Component Test  -> <Radio /> renders should equal snapshot -> currentValue={true} 1`] = `
+<form>
+  <div
+    class="field Radio  Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My Radio
+    </label>
+    <div
+      class="ui checked fitted radio checkbox"
+      placeholder="My Radio"
+    >
+      <input
+        checked=""
+        class="hidden"
+        name="my-Radio"
+        readonly=""
+        tabindex="0"
+        type="radio"
+      />
+      <label />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Component Test  -> <TextArea /> renders should equal snapshot -> currentValue 1`] = `
+<form>
+  <div
+    class="field TextArea  Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My TextArea
+    </label>
+    <textarea
+      name="my-TextArea"
+      placeholder="Company Name"
+      rows="3"
+      style="resize:none"
+    >
+      Test content
+    </textarea>
+  </div>
+</form>
+`;
+
+exports[`Component Test  -> <TextArea /> renders should equal snapshot 1`] = `
+<form>
+  <div
+    class="field TextArea  Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My TextArea
+    </label>
+    <textarea
+      name="my-TextArea"
+      placeholder="Company Name"
+      rows="3"
+      style="resize:none"
+    />
+  </div>
+</form>
+`;

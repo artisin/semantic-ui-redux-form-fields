@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fieldEnhance HOC -> <TimeDropdown /> renders should equal snapshot -> currentValue 1`] = `
+<form>
+  <div
+    class="field   Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My TimeDropdown
+    </label>
+    <span
+      class="rc-time-picker "
+    >
+      <input
+        class="rc-time-picker-input"
+        placeholder="Company Name"
+        readonly=""
+        type="text"
+        value="10:30 am"
+      />
+      <span
+        class="rc-time-picker-icon"
+      />
+    </span>
+  </div>
+</form>
+`;
+
+exports[`fieldEnhance HOC -> <TimeDropdown /> renders should equal snapshot 1`] = `
+<form>
+  <div
+    class="field   Semantic-redux-form-field"
+    style="padding-bottom:0.75em;padding-left:0;position:relative"
+  >
+    <label>
+      My TimeDropdown
+    </label>
+    <span
+      class="rc-time-picker "
+    >
+      <input
+        class="rc-time-picker-input"
+        placeholder="Company Name"
+        readonly=""
+        type="text"
+        value=""
+      />
+      <span
+        class="rc-time-picker-icon"
+      />
+    </span>
+  </div>
+</form>
+`;

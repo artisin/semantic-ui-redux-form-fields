@@ -1,0 +1,27 @@
+{
+  "env": {
+    "production": {
+      "presets": ["minify"]
+    },
+    "test": {
+      "presets": ["es2015", "react"]
+    }
+  },
+  presets: [
+    "react",
+    "stage-0",
+    ["es2015", {"modules": false}]
+  ],
+  "plugins": [
+    "transform-node-env-inline",
+    ["module-resolver", {
+      "root": ["./"]
+    }],
+    ["lodash", { "id": ["lodash", "semantic-ui-react", "recompose"] }],
+    ["transform-inline-environment-variables", {
+      "include": [
+        "NODE_ENV"
+      ]
+    }]
+  ]
+}
