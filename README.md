@@ -8,7 +8,7 @@
 This React component library is designed to help you easily integrate [Semantic UI React](https://react.semantic-ui.com/introduction) with [Redux Form](http://redux-form.com). The components come all pre-hooked-up so you don't have to worry about error reporting or the presentation logic since everything works right out of the box. Included is the big five form components `Checkbox` `Dropdown`, `Input`, `Radio`, and `TextArea` as well as `fieldEnhance` a higher order component that gives you the flexibility to extend and customize.
 
 <p align="center">
-  <img src="https://gifyu.com/images/semantic-ui-react-redux-fields.gif" width="450"/>
+  <img src="https://media.giphy.com/media/xT9IgwCpeuRPvriyoE/giphy.gif" width="450"/>
 </p>
 
 
