@@ -1,6 +1,6 @@
 {
   "name": "semantic-ui-redux-form-fields",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Semantic UI Fields integration with Redux From",
   "license": "MIT",
   "author": "te schultz",
@@ -114,6 +114,9 @@
       "dist/semantic-ui-redux-form-fields.js",
       "!**/node_modules/**"
     ],
-    "coverageReporters": ["json", "text"]
+    "coverageReporters": [
+      "json",
+      "text"
+    ]
   }
 }
